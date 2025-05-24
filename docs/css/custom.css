@@ -1,0 +1,9 @@
+/* Justificar todo o texto de parágrafos */
+p {
+  text-align: justify;
+}
+
+/* Justificar listas também, se quiser */
+li {
+  text-align: justify;
+}

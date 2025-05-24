@@ -1,0 +1,88 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Machine Learning com Python e R: Decision Trees & Random Forests"
+  subtitle: "Uma abordagem prática com ênfase em Árvores de Decisão e Random Forests"
+  sidebar:
+    search: true
+    logo: imagens/ML.png
+    collapse-level: 3
+
+  author:
+    - name: "Caio Lima"
+      affiliations:
+        - name: "<img src='imagens/ufpa.png' width='40' style='vertical-align:middle;'/> Universidade Federal do Pará"
+        - name: "<img src='imagens/icen.png' width='40' style='vertical-align:middle;'/> Instituto de Ciências Exatas e Naturais"
+        - name: "<img src='imagens/FAEST.png' width='45' style='vertical-align:middle;'/> Faculdade de Estatística"
+  
+  page-footer:
+    left: |
+      **CANAVIEIRA, P. C. L.**
+
+  date: "04/05/2025"
+  chapters:
+    - index.qmd                 # Página inicial
+    #- apresentacao.qmd         # Página de apresentação
+    - text: "Módulo 1"   # Este será o texto na sidebar
+      file: modulo_1.qmd # Este é o arquivo correspondente
+    #- modulo_2.qmd             # Pré-processamento de dados
+    #- modulo_3.qmd             # Árvores de Decisão
+    #- modulo_4.qmd             # Random Forests
+    #- referencias.qmd          # Referências bibliográficas
+
+bibliography: OFICINA.bib
+csl: apa.csl
+
+format:
+  html:
+    css: 
+      - css/lightbox.css
+      - css/custom.css  # Aqui adiciona o novo CSS
+    theme:
+      light: flatly   # Tema claro opcional
+      dark: darkly    # Tema escuro opcional
+    toc: true         # Habilita a Table of Contents (índice lateral)
+    toc-location: right
+    toc-title: "Sumário"
+    toc-depth: 2
+    # Code folding
+    code-fold: true
+    # Sumário do código
+    code-summary: "Mostrar Código"
+    # Tools para o código
+    code-tools: true
+
+    include-in-header:
+      - text: |
+          <!-- Lightbox CSS -->
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+          
+          <!-- Font Awesome (opcional, para ícones) -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    include-after-body:
+      - text: |
+          <!-- Lightbox JS -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+          <script>
+            lightbox.option({
+              'resizeDuration': 200,
+              'wrapAround': true
+            });
+          </script>
+    # number-sections: false
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+website:
+  twitter-card: true
+  open-graph: true
+  image: imagens/cover.png
+  image-alt: "Capa do livro Machine Learning com Python e R"
+
+lang: pt

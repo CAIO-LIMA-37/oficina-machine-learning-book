@@ -1,0 +1,211 @@
+---
+title: "Apresentação"
+---
+
+# Autor
+
+```{=html}
+<div style="display: flex; align-items: center; gap: 25px; margin: 20px 0;">
+  <a href="imagens/autor.JPG" data-lightbox="autor" data-title="Caio Lima">
+    <img src="imagens/autor.JPG" alt="Caio Lima" 
+         style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  </a>
+  
+  <div style="line-height: 1.5;">
+    <h3 style="margin: 0 0 8px 0; color: #333;">Caio Lima</h3>
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+      <i class="fas fa-user" style="color: #1976d2; width: 18px;"></i>
+      <span style="color: #555;">21 anos</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+      <i class="fas fa-graduation-cap" style="color: #1976d2; width: 18px;"></i>
+      <span style="color: #555;">Graduando em Estatística</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <i class="fas fa-calendar-alt" style="color: #1976d2; width: 18px;"></i>
+      <span style="color: #555;">5º semestre (Desde 2023)</span>
+    </div>
+  </div>
+</div>
+```
+
+Sou fascinado pela área de **Inteligência Artificial**, com ênfase em **Aprendizado de Máquina, Aprendizad Profundo, IA Generativa** e **Agentes de IA**. Paralelamente, dedico-me ao estudo da **Teoria do Cálculo** e **Teoria das Probabilidades**, com foco em compreender suas estruturas formais, demonstrações e aplicações.
+
+Me considero um **teórico-empirista**, dividindo meu enfoque entre 60% de dedicação à teoria pura e 40% à prática aplicada. Também tenho interesse pelas áreas de **Processamento de Linguagem Natural** e **Visão Computacional**, explorando caminhos para o desenvolvimento de sistemas autossuficientes e adaptativos. Tenho uma forte motivação para entender como algoritmos aprendem com dados e como podem ser usados para resolver problemas reais.
+
+Atualmente, sou bolsista PIBIC no projeto de pesquisa intitulado **"Técnicas de IA Generativa para Construção de Sistemas Baseados em Large Language Models"**, sob orientação do Prof. Dr. [Aldebaro Barreto da Rocha Klautau Júnior](http://lattes.cnpq.br/1596629769697284), vinculado ao Instituto de Tecnologia (ITEC) e ao laboratório **LASSE**.
+
+O foco da pesquisa é o desenvolvimento de sistemas baseados em LLMs que integram métodos como *Retrieval-Augmented Generation* e *LangGraph*, para criação de agentes autônomos aplicáveis em telecomunicações.
+
+```{=html}
+<div style="display: flex; align-items: center; gap: 25px; margin: 30px 0;">
+  <a href="imagens/lasse.png" data-lightbox="lasse" data-title="LASSE Logo">
+    <img src="imagens/lasse.png" alt="LASSE Logo" 
+         style="width: 140px; height: 140px; object-fit: contain; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  </a>
+  
+  <div style="line-height: 1.5;">
+    <h3 style="margin: 0 0 10px 0; color: #333; font-size: 1.4em;">
+      Núcleo de Pesquisa e Desenvolvimento em Telecomunicações, Automação e Eletrônica (LASSE)
+    </h3>
+    
+    <div style="display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px;">
+      <i class="fas fa-flask" style="color: #1976d2; width: 18px; margin-top: 3px;"></i>
+      <p style="margin: 0; color: #555; font-size: 1.1em;">
+        <strong>Projeto de Pesquisa:</strong> Técnicas de IA Generativa para Construção de Sistemas Baseados em Large Language Models
+      </p>
+    </div>
+    
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <i class="fas fa-user-tie" style="color: #1976d2; width: 18px;"></i>
+      <p style="margin: 0; color: #555; font-size: 1em;">
+        Orientador: Prof. Dr. Aldebaro Barreto da Rocha Klautau Júnior
+      </p>
+    </div>
+  </div>
+</div>
+```
+
+
+Além do foco em IA, também desenvolvo estudos em Econometria, com ênfase na Teoria Hedônica aplicada ao Mercado Imobiliário — área que busca modelar o valor de bens a partir de suas características intrínsecas, sob orientação da Profª Dr. [Marinalva Cardoso Maciel](http://lattes.cnpq.br/7097094334421162). Acredito que a interação entre Estatística, Econometria e Machine Learning abre portas para análises mais robustas e aplicações práticas em mercados complexos, como o imobiliário.
+
+# Sobre a Oficina
+
+## Nome: *Machine Learning com Python e R – Árvores de Decisão e Random Forests*
+
+Esta oficina tem como objetivo apresentar conceitos fundamentais de **Inteligência Artificial** e **Aprendizado de Máquina**, com ênfase prática em **Árvores de Decisão** e **Random Forests**, utilizando **Python** e **R** como linguagens base.
+
+Durante os quatro dias de oficina, serão abordados tanto os fundamentos teóricos quanto a implementação prática dos modelos, passando pelas etapas essenciais de um pipeline de Machine Learning: desde a **coleta e pré-processamento dos dados** até a **avaliação de desempenho dos modelos**.
+
+A oficina é voltada para alunos de graduação com conhecimentos básicos em programação e estatística, especialmente aqueles dos semestres finais ou intermediários, interessados em aplicações reais da Estatística e da IA.
+
+## Abordagem Didática
+
+A estrutura da oficina está dividida em módulos:
+
+```{=html}
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oficina de Machine Learning</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      text-align: left; /* Isso alinha os títulos à direita */
+      color: #2c3e50;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin-top: 30px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: square inside;
+      padding-left: 0;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .highlight {
+      background: #e0f7fa;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Oficina de Machine Learning</h1>
+
+    <div class="section">
+      <h2>Dia 1: Fundamentos</h2>
+      <p><strong>Objetivo:</strong> Pegar a estrada com o pé direito, entendendo os conceitos-chave e preparando os dados.</p>
+      <ul>
+        <li>De onde vem o ML no universo da IA? (DL, RL, IA Generativa)</li>
+        <li>Quando usar aprendizado supervisionado vs. não supervisionado?</li>
+        <li>Pré-processamento inteligente: desde dados faltantes até seleção de features importantes.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Dia 2: Árvores de Decisão</h2>
+      <p><strong>Objetivo:</strong> Dominar os algoritmos clássicos e aprender a diagnosticar seus modelos.</p>
+      <ul>
+        <li>CART e ID3 passo a passo – como a árvore "pensa"?</li>
+        <li>Avaliação de modelos: acurácia, precisão, recall... qual métrica usar?</li>
+        <li>Problemas comuns: overfitting, underfitting e o equilíbrio entre viés e variância.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Dia 3: Otimização e Regularização</h2>
+      <p><strong>Objetivo:</strong> Aprender técnicas para deixar seus modelos mais robustos.</p>
+      <ul>
+        <li>Tuning de hiperparâmetros: GridSearch vs. RandomSearch</li>
+        <li>Regularização em árvores: como evitar modelos muito complexos?</li>
+        <li>CHAID: árvores para segmentação avançada</li>
+        <li>Comparando modelos: Curva ROC, AUC, MSE e mais</li>
+        <li>Primeiro contato com Ensemble Learning</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Dia 4: Ensemble Learning e Florestas Aleatórias</h2>
+      <p><strong>Objetivo:</strong> Combinar modelos para resultados melhores!</p>
+      <ul>
+        <li>Bagging vs. Pasting: qual a diferença e quando usar?</li>
+        <li>Florestas Aleatórias na prática – por que elas são tão poderosas?</li>
+        <li>Boosting: AdaBoost e Gradient Boosting</li>
+        <li>Stacking: juntando modelos diferentes pra ganhar performance</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Precisa saber o quê pra fazer a oficina?</h2>
+
+      <div class="highlight">
+        <h3>Programação:</h3>
+        <ul>
+          <li>Se você já manja o básico de Python ou R (sabe o que é e como manipular um loop, uma função, um DataFrame), tá pronto!</li>
+          <li>Experiência com bibliotecas como Pandas, NumPy (Python) ou dplyr, tidyr (R).</li>
+        </ul>
+      </div>
+
+      <div class="highlight">
+        <h3>Matemática e Estatística:</h3>
+        <ul>
+          <li>Noções básicas de probabilidade, teste de hipótese e estatística descritiva (média, desvio padrão, distribuições).</li>
+          <li>Conceitos introdutórios de otimização (gradiente, funções de custo) são úteis, mas não obrigatórios.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+```
+Ao final da oficina, os participantes terão não apenas compreendido os fundamentos de Árvores de Decisão e Random Forests, mas também serão capazes de **aplicar esses modelos em dados reais, utilizando pipelines completos em Python ou R**, com uma visão crítica e estatística sobre os resultados.

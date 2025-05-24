@@ -1,0 +1,22 @@
+# Ambiente Python
+
+## teste
+
+Vamos utilizar as bibliotecas:
+
+```{.python}
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+```
+
+Exemplo de carga de dados:
+
+```{.python}
+# Dataset de exemplo (Iris)
+from sklearn.datasets import load_iris
+iris = load_iris()
+X = iris.data
+y = iris.target
+```

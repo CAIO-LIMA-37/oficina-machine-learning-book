@@ -1,0 +1,148 @@
+/* ====================== */
+/* LIGHTBOX CUSTOMIZATION */
+/* ====================== */
+
+/**
+ * Configurações básicas do Lightbox
+ */
+.lightbox-overlay {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lb-outerContainer {
+  background-color: transparent !important;
+  border-radius: 8px;
+  max-width: min(90vw, 1200px);
+  max-height: 90vh;
+  position: relative;
+  margin: 0 auto;
+  animation: scaleUp 0.3s ease-out;
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.lb-image {
+  border: 8px solid #f0f0f0 !important;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 20px rgba(0, 0, 0, 0.1) !important;
+  background-color: #f0f0f0 !important;
+  max-width: 85vw !important;
+  max-height: 85vh !important;
+  object-fit: contain !important;
+  border-radius: 4px !important;
+  padding: 0 !important;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.2s ease-out;
+}
+
+.lb-image:hover {
+  transform: scale(1.02) !important;
+}
+
+/**
+ * Elementos de navegação
+ */
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+  opacity: 0.8;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.8));
+  transition: opacity 0.2s ease;
+}
+
+.lb-nav a.lb-prev:hover,
+.lb-nav a.lb-next:hover {
+  opacity: 1;
+}
+
+/**
+ * Botão de fechar
+ */
+.lb-container .lb-close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.lb-container .lb-close:hover {
+  transform: scale(1.1);
+}
+
+/**
+ * Imagens especiais (circulares)
+ */
+[data-lightbox="organograma"] .lb-image {
+  border-radius: 50% !important;
+  width: min(500px, 80vw) !important;
+  height: min(500px, 80vw) !important;
+  object-fit: cover !important;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/**
+ * Zoomable images (pré-lightbox)
+ */
+.zoomable-image {
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.zoomable-image:hover {
+  transform: scale(1.02) translateZ(0);
+}
+
+.zoomable-image.zoomed {
+  width: 100% !important;
+  height: auto !important;
+  position: relative;
+  z-index: 1000;
+}
+
+/**
+ * Loader para imagens pesadas
+ */
+.lb-loader {
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  border-top: 5px solid white;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
