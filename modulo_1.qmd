@@ -748,7 +748,7 @@ modelo <- randomForest(
 </div>
 ```
 
-O link a seguir levara vocês ao meu **github**, nele haverá os diferentes **notebooks** e algoritmos **Python** e **R** que usaremos para essa oficina, [clique aqui](https://github.com/CAIO-LIMA-37/Oficina-de-Machine-Learning-R-Python)
+O link a seguir levara vocês ao meu **github**, nele haverá os diferentes **notebooks** e algoritmos **Python** e **R** que usaremos para essa oficina, [clique aqui](https://github.com/CAIO-LIMA-37/Oficina-de-ML-Decision-Tree-Random-Forests)
 
 **Referências desse Módulo:**
 
